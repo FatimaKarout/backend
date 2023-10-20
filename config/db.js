@@ -1,8 +1,7 @@
 const mongoose = require('mongoose');
-const MONGODB_URL = process.env.MONGODB_URL;
 
 async function dbConnection() {
-  await mongoose.connect(MONGODB_URL);
+  await mongoose.connect('mongodb+srv://fatimakarout1717:KvkK4RMvgOyldPLn@cluster0.zitfoyi.mongodb.net/?retryWrites=true&w=majority');
 }
 
 // async function mainUsingTryCatch() {
